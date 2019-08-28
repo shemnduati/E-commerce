@@ -9,13 +9,13 @@ define('CHECKOUTMODE','TEST');//chage test to live
 
 
 if(CHECKOUTMODE == 'TEST'){
-	define('STRIPE_PRIVATE','sk_test_ZSZJtnFx5mYcKB0RNgaVP1qg');
-	define('STRIPE_PUBLIC','pk_test_dnNs7DYzCwbxJPItJAZOYc9K');
+	define('STRIPE_PRIVATE','#');
+	define('STRIPE_PUBLIC','#');
 	
 	}
 if(CHECKOUTMODE == 'LIVE'){
-	define('STRIPE_PRIVATE','sk_live_oE0KryXEQljsrqwrEUkxemgz');
-	define('STRIPE_PUBLIC','pk_live_eiGGrP2HKjq20ni5bjHmYbA0');
+	define('STRIPE_PRIVATE','#');
+	define('STRIPE_PUBLIC','#');
 	
 	}
 
